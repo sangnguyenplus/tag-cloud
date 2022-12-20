@@ -15,6 +15,7 @@ class TagCloudServiceProvider extends ServiceProvider
         $this
             ->setNamespace('plugins/tag-cloud')
             ->loadAndPublishTranslations()
+            ->publishAssets()
             ->loadAndPublishViews();
 
         $this->app->booted(function () {

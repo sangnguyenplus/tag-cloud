@@ -10,7 +10,7 @@ Purchase it here: [https://codecanyon.net/item/botble-cms-php-platform-based-on-
 
 # Screenshots
 
-![Screenshot](https://raw.githubusercontent.com/botble/tag-cloud/main/public/images/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/sangnguyenplus/tag-cloud/main/public/images/screenshot.png)
 
 # Contact us
 - Website: [https://botble.com](https://botble.com)
