@@ -1,0 +1,10 @@
+{
+    "id": "botble/tag-cloud",
+    "name": "Tag Cloud",
+    "namespace": "Botble\\TagCloud\\",
+    "provider": "Botble\\TagCloud\\Providers\\TagCloudServiceProvider",
+    "author": "Sang Nguyen",
+    "url": "https://sangplus.com",
+    "version": "1.0",
+    "description": "Tag cloud widget"
+}
