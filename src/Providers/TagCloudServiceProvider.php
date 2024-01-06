@@ -21,7 +21,7 @@ class TagCloudServiceProvider extends ServiceProvider
         $this->app->booted(function () {
             register_widget(TagCloud::class);
 
-            add_filter(THEME_FRONT_FOOTER, function ($html) {
+            add_filter(THEME_FRONT_FOOTER, function (string|null $html) {
                 return $html . view('plugins/tag-cloud::footer')->render();
             }, 155);
         });

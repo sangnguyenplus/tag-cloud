@@ -19,5 +19,10 @@ class TagCloud extends AbstractWidget
             'description' => trans('plugins/tag-cloud::tag-cloud.widget_description'),
             'number_display' => 10,
         ]);
+
+        if (version_compare('7.0.0', get_core_version(), '<')) {
+            $this->setFrontendTemplate($this->frontendTemplate);
+            $this->setBackendTemplate($this->backendTemplate);
+        }
     }
 }
