@@ -1,5 +1,5 @@
 {
-    "id": "botble/tag-cloud",
+    "id": "sangnguyenplus/tag-cloud",
     "name": "Tag Cloud",
     "namespace": "Botble\\TagCloud\\",
     "provider": "Botble\\TagCloud\\Providers\\TagCloudServiceProvider",
