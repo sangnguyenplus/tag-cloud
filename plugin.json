@@ -5,7 +5,7 @@
     "provider": "Botble\\TagCloud\\Providers\\TagCloudServiceProvider",
     "author": "Sang Nguyen",
     "url": "https://sangplus.com",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "minimum_core_version": "5.30.0",
     "description": "A tag cloud is a visual representation of text data, which is often used to depict keyword metadata on websites."
 }
