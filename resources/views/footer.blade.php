@@ -10,7 +10,9 @@
                 maxSpeed: 0.05
             });
         } catch (e) {
-            document.getElementById('tag-cloud-container').style.display = 'none';
+            if (document.getElementById('tag-cloud-container')) {
+                document.getElementById('tag-cloud-container').style.display = 'none';
+            }
         }
     };
 </script>
